@@ -1,0 +1,8 @@
+start:
+ puts "hello guys"
+ goto other_label
+ puts "back to here"
+ stop
+ puts "This should not show"
+other_label:
+ puts "on the way"
